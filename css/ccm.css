@@ -22,7 +22,7 @@ body {
 }
 
 .prima-header {
-    background: url("../images/armadillo.png") no-repeat center center;
+    background: url("../img/armadillo.png") no-repeat center center;
 	height: 250px;
 	background-size: contain;
     background-color: #6DB7C2;
@@ -47,4 +47,16 @@ body {
 .navbar-default .navbar-nav > li > a {
     color: #6db7ca;
     font-size: 18px;
+}
+
+.cd-primary-nav {
+    background: rgba(79, 17, 58, 0.9) none repeat scroll 0 0;
+}
+
+.cd-primary-nav .cd-label {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 2.4em 0 0.8em;
+    text-transform: uppercase;
 }
