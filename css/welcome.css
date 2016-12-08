@@ -1,11 +1,19 @@
+.intro-header {
+    color: #ffffff;
+    height: 100%;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    text-align: center;
+}
+/*
 
 html{
-	/* This image will be displayed fullscreen
-	background:url('background.jpg') no-repeat center center; */
-    background: url("img/Landing.png") no-repeat center center;
+	!* This image will be displayed fullscreen
+	background:url('background.jpg') no-repeat center center; *!
+    background: url("../img/background.jpg") no-repeat center center;
 	min-height:100%;
 	background-size:cover;
-    /* Contain o Cover*/
+    !* Contain o Cover*!
 }
 
 body{
@@ -13,7 +21,7 @@ body{
 }
 
 .cd-primary-nav {
-/*    background: rgba(155, 89, 182, 0.95) none repeat scroll 0 0;*/
+!*    background: rgba(155, 89, 182, 0.95) none repeat scroll 0 0;*!
     background: rgba(79, 17, 58, 0.9) none repeat scroll 0 0;
 }
 
@@ -154,4 +162,164 @@ body{
     right: 1em;
     transform: translateX(0px) translateY(-50%);
 }
+}*/
+
+
+/*
+
+html{
+	!* This image will be displayed fullscreen
+	background:url('background.jpg') no-repeat center center; *!
+    background: url("../img/background.jpg") no-repeat center center;
+	min-height:100%;
+	background-size:cover;
+    !* Contain o Cover*!
 }
+
+body{
+	min-height: 100%;
+}
+
+.cd-primary-nav {
+!*    background: rgba(155, 89, 182, 0.95) none repeat scroll 0 0;*!
+    background: rgba(79, 17, 58, 0.9) none repeat scroll 0 0;
+}
+
+.cd-primary-nav {
+    padding: 80px 0;
+}
+
+.cd-primary-nav {
+    backface-visibility: hidden;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    padding: 50px 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transform: translateY(-100%);
+    transition-duration: 0.4s;
+    transition-property: transform;
+    width: 100%;
+    z-index: 2;
+}
+
+.cd-header {
+    background: rgba(2, 23, 37, 0.95) none repeat scroll 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.cd-header {
+    background: transparent none repeat scroll 0 0;
+    box-shadow: none;
+    height: 80px;
+}
+
+.cd-header {
+    backface-visibility: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    transition: background-color 0.3s ease 0s;
+}
+
+.cd-logo {
+    left: 2.6em;
+}
+.cd-logo {
+    bottom: auto;
+    display: block;
+    left: 0.875em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cd-primary-nav-trigger {
+    background-color: transparent;
+    bottom: auto;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 1em;
+    right: 2.2em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+}
+.cd-primary-nav-trigger {
+    background-color: transparent;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 50px;
+}
+
+.cd-primary-nav-trigger .cd-menu-icon {
+    background-color: white;
+    bottom: auto;
+    display: inline-block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: background-color 0.3s ease 0s;
+    width: 18px;
+}
+.cd-primary-nav-trigger .cd-menu-icon::before, .cd-primary-nav-trigger .cd-menu-icon::after {
+    background-color: white;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s ease 0s, top 0.3s ease 0s, background-color 0s ease 0s;
+    width: 100%;
+}
+.cd-primary-nav-trigger .cd-menu-icon::before {
+    top: -5px;
+}
+.cd-primary-nav-trigger .cd-menu-icon::after {
+    top: 5px;
+}
+.cd-primary-nav-trigger .cd-menu-icon.is-clicked {
+    background-color: rgba(255, 255, 255, 0);
+}
+.cd-primary-nav-trigger .cd-menu-icon.is-clicked::before, .cd-primary-nav-trigger .cd-menu-icon.is-clicked::after {
+    background-color: white;
+}
+.cd-primary-nav-trigger .cd-menu-icon.is-clicked::before {
+    top: 0;
+    transform: rotate(135deg);
+}
+.cd-primary-nav-trigger .cd-menu-icon.is-clicked::after {
+    top: 0;
+    transform: rotate(225deg);
+}
+@media only screen and (min-width: 768px) {
+.cd-primary-nav-trigger {
+    background-color: transparent;
+    bottom: auto;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 1em;
+    right: 2.2em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+}
+.cd-primary-nav-trigger .cd-menu-text {
+    display: inline-block;
+}
+.cd-primary-nav-trigger .cd-menu-icon {
+    left: auto;
+    right: 1em;
+    transform: translateX(0px) translateY(-50%);
+}
+}*/
