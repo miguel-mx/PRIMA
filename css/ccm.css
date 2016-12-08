@@ -50,7 +50,8 @@ body {
 }
 
 .cd-primary-nav {
-    background: rgba(79, 17, 58, 0.9) none repeat scroll 0 0;
+    background: rgba(42, 108, 118, 0.88) none repeat scroll 0 0;
+
 }
 
 .cd-primary-nav .cd-label {
@@ -66,4 +67,10 @@ body {
     border-color: #fff;
     color: #ffffff;
     font-size: 50px;
+}
+
+a:focus, a:hover, a:visited {
+    color: #fff;
+    text-decoration: none;
+
 }

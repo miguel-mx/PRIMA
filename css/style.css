@@ -105,7 +105,7 @@ html, body {
   .cd-header.menu-is-open {
     /* add a background color to the header when the navigation is open */
     /* background-color: rgba(2, 23, 37, 0.96); */
-      background-color: #4F113A;
+      background-color: #2a6c76;
   }
 }
 
@@ -293,7 +293,7 @@ html, body {
   transition-duration: 0.4s;
 }
 .cd-primary-nav li {
-  font-size: 22px;
+  font-size: 60px;
   font-size: 1.375rem;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
