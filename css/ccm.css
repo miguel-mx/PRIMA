@@ -22,7 +22,7 @@ body {
 }
 
 .prima-header {
-    background: url("../img/armadillo.png") no-repeat center center;
+    background: url("../images/armadillo.png") no-repeat center center;
 	height: 250px;
 	background-size: contain;
     background-color: #6DB7C2;
