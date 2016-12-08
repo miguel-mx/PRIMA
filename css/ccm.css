@@ -60,3 +60,10 @@ body {
     margin: 2.4em 0 0.8em;
     text-transform: uppercase;
 }
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: #fff;
+    color: #ffffff;
+    font-size: 50px;
+}
