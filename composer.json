@@ -1,0 +1,9 @@
+{
+    "name": "ccm/prima",
+    "description": "PRIMA 2017 webpage",
+    "type": "project",
+    "require": {
+        "silex/silex": "1.3.5",
+        "symfony/twig-bridge": "^2.8"
+    }
+}
