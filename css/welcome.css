@@ -5,7 +5,22 @@
     padding-top: 150px;
     text-align: center;
 }
+
+.cd-primary-nav li {
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+
 /*
+.cd-primary-nav li {
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin: 0.2em 0;
+    text-transform: capitalize;
+}
+
+
 
 html{
 	!* This image will be displayed fullscreen
