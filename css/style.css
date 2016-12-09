@@ -55,7 +55,7 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(2, 23, 37, 0.95);
+  background: rgba(42, 108, 118, 0.95);
   height: 50px;
   width: 100%;
   z-index: 3;
@@ -88,7 +88,8 @@ html, body {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -80px;
-    background-color: rgba(2, 23, 37, 0.96);
+    background-color: rgba(42, 108, 118, 0.96);
+
 
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
@@ -165,7 +166,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 50px;
-  background-color: #03263d;
+  background-color: #2A6A74;
 }
 .cd-primary-nav-trigger .cd-menu-text {
   color: white;
@@ -308,6 +309,7 @@ html, body {
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
+  font-size: 30px;
 }
 .no-touch .cd-primary-nav a:hover {
   background-color: #e36767;
@@ -348,6 +350,7 @@ html, body {
   background-position: -132px 0;
 }
 .cd-primary-nav.is-visible {
+    padding-top: 100px;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -355,9 +358,12 @@ html, body {
   transform: translateY(0);
 }
 @media only screen and (min-width: 768px) {
-  .cd-primary-nav {
-    padding: 80px 0;
-  }
+ .cd-primary-nav {
+   padding: 80px 0;
+ }
+ .cd-primary-nav a {
+   font-size: 45px;
+ }
 }
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav li {
