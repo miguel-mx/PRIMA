@@ -25,6 +25,11 @@ $app->get('/home', function() use($app) {
     return $app['twig']->render('base.html.twig');
 })->bind('home');
 
+// Program
+$app->get('/program', function() use($app) {
+    return $app['twig']->render('program.html.twig');
+})->bind('home');
+
 // 404 - Page not found
 $app->error(function (\Exception $e, $code) use ($app) {
     switch ($code) {

@@ -80,3 +80,9 @@ a:focus, a:hover, a:visited {
 
 }
 
+.container-prima-title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #6CB7C3;
+}

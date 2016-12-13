@@ -35,149 +35,56 @@
 </head>
 
 <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">PRIMA 2017</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">PRIMA 2017</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-<!--          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>-->
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Programa</a></li>
-            <li><a href="#">Registro</a></li>
-            <li><a href="#">Conferencia Plenaria</a></li>
-            <li><a href="#">Becas</a></li>
-            <li><a href="#">Patrocinadores</a></li>
-            <li><a href="#">Oaxaca</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
+            <!--          <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                          </ul>
+                        </li>
+                      </ul>-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Programa</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="#">Conferencia Plenaria</a></li>
+                <li><a href="#">Becas</a></li>
+                <li><a href="#">Patrocinadores</a></li>
+                <li><a href="#">Oaxaca</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
         </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
+    </div>
+</nav>
+{% block content %}
     <div class="prima-header">
         <div class="prima-header-content">
-        <h3>PRIMA 2017</h3>
-        <p>The Third Pacific Rim Mathematical Association (PRIMA) Congress will take place in Oaxaca, Mexico from August 14th till August 18th of 2017. PRIMA is an association of mathematical sciences institutes, departments and societies from around the Pacific Rim, established in 2005 with the aim of promoting and facilitating the development of the mathematical sciences throughout the Pacific Rim region.</p>
+            <h3>PRIMA 2017</h3>
+            <p>The Third Pacific Rim Mathematical Association (PRIMA) Congress will take place in Oaxaca, Mexico from August 14th till August 18th of 2017. PRIMA is an association of mathematical sciences institutes, departments and societies from around the Pacific Rim, established in 2005 with the aim of promoting and facilitating the development of the mathematical sciences throughout the Pacific Rim region.</p>
 
         </div>
     </div>
-
-<div class="container">
-    <table class="table table-bordered table-striped table-responsive">
-        <thead>
-        <tr>
-            <th class="text-center">Curso</th><th class="text-center">Tema</th><th class="text-center">Profesor</th><th class="text-center">Horas/Semana</th><th class="text-center">Créditos</th><th class="text-center">Asignatura</th><th class="text-center">Clave</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr><td>Análisis Real</td><td></td><td>Carlos Osvaldo Osuna Castro</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62540</td><td class="text-center">0</td></tr>
-            <tr><td>Análisis Complejo</td><td></td><td>Robert Oeckl</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62541</td><td class="text-center">0</td></tr>
-            <tr><td>Análisis Asintótico</td><td></td><td>Anatoli Merzon</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62545</td><td class="text-center">0</td></tr>
-            <tr><td>Algebra Conmutativa</td><td></td><td>Mustapha Lahyane</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62538</td><td class="text-center">0</td></tr>
-            <tr><td>Ecuaciones Diferenciales Parciales</td><td></td><td>Laura Rocio González Ramírez</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62547</td><td class="text-center">0</td></tr>
-            <tr><td>Ecuaciones Diferenciales Ordinarias</td><td></td><td>Abdon Eddy Choque Rivero</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62546</td><td class="text-center">0</td></tr>
-            <tr><td>Geometría Algebraica</td><td></td><td>Mustapha Lahyane</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62551</td><td class="text-center">0</td></tr>
-            <tr><td>Probabilidad I</td><td></td><td>Elena Kaikina</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62558</td><td class="text-center">0</td></tr>
-            <tr><td>Teoría de Gráficas</td><td></td><td>María Luisa Pérez Segui</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62553</td><td class="text-center">0</td></tr>
-            <tr><td>Topología Diferencial</td><td></td><td>Jesús Muciño Raymundo</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62562</td><td class="text-center">0</td></tr>
-            <tr><td>Topología General</td><td></td><td>Salvador García Ferreira</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62563</td><td class="text-center">0</td></tr>
-            <tr><td>Inferencia Estadistica</td><td></td><td>Eugenio Balanzario Gutierrez</td><td class="text-center">3</td><td class="text-center">6</td><td class="text-center">62549</td><td class="text-center">0</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM1">Seminario de Análisis</a></td><td>Análisis de Fourier en Teoría de Números</td><td>Mouvariz Garaev</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62569</td><td class="text-center">T002</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM2">Seminario de Análisis</a></td><td>Noncommutative Kähler Structures and Spectral Triples</td><td>Elmar Wagner</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62569</td><td class="text-center">T003</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM3">Seminario de ecuaciones diferenciales ordinarias y parciales</a></td><td>Estudio de campos neurales</td><td>Laura Rocion González Ramírez</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62575</td><td class="text-center">T001</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM4">Seminario de Matemáticas Discretas</a></td><td>Gráficas aleatorias</td><td>Eugenio Balanzario Gutierrez</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62584</td><td class="text-center">T002</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM5">Seminario de probabilidad</a></td><td>Teorema del limite central</td><td>Pavel Naumkin</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62587</td><td class="text-center">T002</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM6">Seminario de probabilidad</a></td><td>Teorema de continuidad de Levy y leyes estables e infinitamente divisibles</td><td>Pavel Naumkin</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62587</td><td class="text-center">T003</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM7">Seminario de topología</a></td><td>Enseñar tectónicas avanzadas del metodo de forcing</td><td>Michael Hrusak</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62593</td><td class="text-center">T004</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#SEM8">Seminario de topología</a></td><td>Amenabilidad y teoría de Ramsey</td><td>Ulises Ariet Ramos García</td><td class="text-center">2.5</td><td class="text-center">5</td><td class="text-center">62593</td><td class="text-center">T004</td></tr>
-
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO1">Curso Avanzado de Algebra</a></td><td>Funtores de Green de biconjuntos y las construcciones "mas"</td><td>Alberto Gerardo Raggi Cárdenas</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62564</td><td class="text-center">T002</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO2">Curso Avanzado de Algebra</a></td><td>Combinatoria Algebraica</td><td>Ernesto Vallejo Ruíz</td><td class="text-center">3</td><td class="text-center">6</td><td class="text-center">62565</td><td class="text-center">T001</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO3">Curso Avanzado de Algebra</a></td><td>Teoría de Representaciones de Algebras</td><td>Leonardo Salmeron Castro</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62564</td><td class="text-center">T003</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de topología</a></td><td>Cohomología, Clases Características y Variedades</td><td>Noe Barcenas Torres</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62591</td><td class="text-center">T027</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de topología</a></td><td>Introducción a la Teoría de Nudos</td><td>Juan Athziri González Lémus</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62591</td><td class="text-center">T001</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de topología</a></td><td>Haces Fibrados</td><td>Daniel Juan Pineda</td><td class="text-center">3</td><td class="text-center">6</td><td class="text-center">62592</td><td class="text-center">T003</td></tr>
-
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de geometría</a></td><td>Curso de Geometría algebraica y diferencial compleja</td><td>Luis Abel Castorena Martínez</td><td class="text-center">3</td><td class="text-center">6</td><td class="text-center">62580</td><td class="text-center">T003</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de geometría</a></td><td>Geometría Algebraica Moderna</td><td>Mustapha Lahyane</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62579</td><td class="text-center">T012</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de geometría</a></td><td>Grupo modular de Teichmüller y el espacio de Teichmüller</td><td>Jesús Hernández Hernández</td><td class="text-center">3</td><td class="text-center">6</td><td class="text-center">62580</td><td class="text-center">T013</td></tr>
-
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de análisis</a></td><td>La función zeta de Riemann</td><td>Moubariz Garaev</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62567</td><td class="text-center">T006</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de análisis</a></td><td>Teoría de distribuciones</td><td>Anatoli Merzon</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62567</td><td class="text-center">T007</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de análisis</a></td><td>Marcos continuas en espacios de Krein</td><td>Elmar Wagner</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62567</td><td class="text-center">T008</td></tr>
-
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de matemáticas discretas</a></td><td>Geometría Computacional</td><td>Miguel Raggi y Edgardo Roldan</td><td class="text-center">3</td><td class="text-center">6</td><td class="text-center">63583</td><td class="text-center">T001</td></tr>
-            <tr><td><a href="#" data-toggle="modal" data-target="#CURSO4">Curso avanzado de ecuaciones diferenciales ordinarias y parciales </a></td><td>Transformada de Fourier</td><td>Anatoli Merzon</td><td class="text-center">4.5</td><td class="text-center">9</td><td class="text-center">62573</td><td class="text-center">T004</td></tr>
-
-
-        </tbody>
-    </table>
-</div>
-
-  <!-- Modal Barcenas -->
-  <div class="modal fade" id="T033" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Curso avanzado de topología<br>
-                      <span class="text-muted">Temas avanzados de topología algebraica</span>
-                  </h4>
-              </div>
-              <div class="modal-body">
-                  <h3>Noé Barcenas Torres</h3>
-                  <br><br>
-                  <table class="table table-striped">
-                      <tbody>
-                      <tr>
-                          <th><i class="icon-file"></i> Objetivo</th>
-                          <td>El  objetivo  del  curso  es  dotar a  los  alumnos  de  conocimientos  avanzados  de  topología  algebraica, reforzando  los  conocimientos  del  curso  básico.</td>
-                      </tr>
-                      <tr>
-                          <th><i class="icon-file"></i> Temario</th>
-                          <td>De  acuerdo  al  interés  de  la  audiencia: Cohomología,  introducción  a la  teoría  de  Clases  características,  Aspectos  básicos de  Espectros y  teoría  de  homotopía  estable, Cálculo  con  sucesiones  espectrales.</td>
-                      </tr>
-                      <tr>
-                          <th><i class="icon-file"></i> Bibliografía</th>
-                          <td>Milnor  y  Stasheff. Characteristic  Classes, <br />
-                              Adams. Stable homotopy  and  generalised  cohomology. <br />
-                              Dold. Lectures  on  algebraic  topology</td>
-                      </tr>
-                      <tr>
-                          <th><i class="icon-file"></i> Requisitos</th>
-                          <td>Conocimientos  de  homología (Curso  básico).</td>
-                      </tr>
-                      </tbody>
-                  </table>
-              </div>
-          </div>
-      </div>
-  </div>
-
 
     <div class="container">
         <div class="page-header">
@@ -186,7 +93,9 @@
         <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
         <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
     </div>
+{% endblock %}
 
+{% block footer %}
     <footer class="footer">
         <div class="row text-center">
             <div class="col-md-1 col-md-offset-1">
@@ -218,19 +127,21 @@
             </div>
         </div>
     </footer>
+{% endblock %}
 
+{% block javascripts %}
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
-
+{% endblock %}
 </body>
 </html>
