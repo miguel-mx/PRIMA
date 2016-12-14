@@ -118,7 +118,6 @@ body {
 
 .nav-tabs {
     border-bottom: 1px solid #fff;
-    padding-left: 360px;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -135,3 +134,19 @@ body {
     padding-bottom: 9px;
     color: #6db7c2;
 }
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 15px;
+    border-top: none !important;
+    border-bottom: none !important;
+    font-size: 15px;
+    color: #2C2C2C;
+    text-align: center;
+}
+
+.p-table {
+    padding-top: 15px;
+    color: #73BAC5;
+}
+
+
