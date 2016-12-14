@@ -11,7 +11,7 @@ Primary style
 
 body {
   font-size: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+/*  font-family: "Source Sans Pro", sans-serif;*/
   color: rgba(2, 23, 37, 0.7);
   background-color: white;
 }
