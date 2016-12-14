@@ -23,6 +23,18 @@ body {
   padding: 50px 0;
 }
 
+.prima-banner {
+    background: url("../img/FirstPage_alebrije.png") no-repeat left center;
+    background-size: contain;
+    background-color: #6DB7C2;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    height: 280px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 .prima-header {
     background: url("../img/armadillo.png") no-repeat center center;
 	height: 250px;
@@ -115,4 +127,11 @@ body {
 .navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
+}
+
+.page-header {
+    /*border-bottom: 1px solid #6db7c2;*/
+    margin: 80px 0 20px;
+    padding-bottom: 9px;
+    color: #6db7c2;
 }
