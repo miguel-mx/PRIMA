@@ -18,6 +18,22 @@
     font-weight: 500;
 }
 
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: #fff;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.btn-primary-outline:hover, .btn-primary-outline:focus {
+    color: #E36767;
+    border-color: #E36767;
+}
+
+a:focus, a:hover, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 
 /*
 .cd-primary-nav li {
