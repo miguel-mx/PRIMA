@@ -30,10 +30,30 @@ $app->get('/program', function() use($app) {
     return $app['twig']->render('program.html.twig');
 })->bind('program');
 
+// Financial assistance
+$app->get('/financial-assistance', function() use($app) {
+    return $app['twig']->render('financial.html.twig');
+})->bind('financial-assistance');
+
+// Plenary Speakers
+$app->get('/plenary-speakers', function() use($app) {
+    return $app['twig']->render('speakers.html.twig');
+})->bind('plenary-speakers');
+
 // Sponsors
 $app->get('/sponsors', function() use($app) {
     return $app['twig']->render('sponsors.html.twig');
 })->bind('sponsors');
+
+// Oaxaca
+$app->get('/oaxaca', function() use($app) {
+    return $app['twig']->render('oaxaca.html.twig');
+})->bind('oaxaca');
+
+// Contact
+$app->get('/contact', function() use($app) {
+    return $app['twig']->render('contact.html.twig');
+})->bind('contact');
 
 // 404 - Page not found
 $app->error(function (\Exception $e, $code) use ($app) {

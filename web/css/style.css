@@ -1,3 +1,4 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
 /* --------------------------------
 
 Primary style
@@ -11,7 +12,7 @@ Primary style
 
 body {
   font-size: 100%;
-/*  font-family: "Source Sans Pro", sans-serif;*/
+  font-family: "Montserrat", sans-serif;
   color: rgba(2, 23, 37, 0.7);
   background-color: white;
 }
@@ -272,7 +273,7 @@ html, body {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(2, 23, 37, 0.96);
+  background: rgba(42, 108, 118, 0.96);
   z-index: 2;
   text-align: center;
   padding: 50px 0;
