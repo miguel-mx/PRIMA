@@ -4,10 +4,12 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    padding-top: 100px;
+    margin-bottom: 200px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -62,28 +64,6 @@ body {
     text-transform: uppercase;
 }
 
-.btn-primary-outline {
-    background-color: transparent;
-    border-color: #fff;
-    color: #ffffff;
-    font-size: 40px;
-}
-
-.btn-primary-outline:hover, .btn-primary-outline:focus {
-    color: #E36767;
-    border-color: #E36767;
-}
-
-a:focus, a:hover, a:visited {
-    color: #fff;
-    text-decoration: none;
-}
-
-body {
-    min-height: 1250px;
-    padding-top: 100px;
-}
-
 .prima-title {
     text-align: center;
     font-size: 25px;
@@ -130,4 +110,9 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
 }

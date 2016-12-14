@@ -22,7 +22,7 @@ $app->get('/', function() use($app) {
 
 // Home
 $app->get('/home', function() use($app) {
-    return $app['twig']->render('base.html.twig');
+    return $app['twig']->render('home.html.twig');
 })->bind('home');
 
 // Program
