@@ -30,6 +30,11 @@ $app->get('/program', function() use($app) {
     return $app['twig']->render('program.html.twig');
 })->bind('program');
 
+// Sponsors
+$app->get('/sponsors', function() use($app) {
+    return $app['twig']->render('sponsors.html.twig');
+})->bind('sponsors');
+
 // 404 - Page not found
 $app->error(function (\Exception $e, $code) use ($app) {
     switch ($code) {
