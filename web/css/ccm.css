@@ -161,3 +161,30 @@ body {
     color: #2C2C2C;
     text-align: left;
 }
+
+.oaxaca-banner {
+    background:  url("../img/oaxaca-img.png") no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    height: 430px;
+    margin-top: 20px;
+    padding-bottom: 200px;
+}
+
+.oaxaca-content {
+    padding-top: 50px;
+}
+
+.oaxaca-p {
+    color: #909090;
+    padding-bottom: 15px;
+}
+
+a, a:focus, a:hover, a:visited, a:active {
+    color: #6db7ca;
+}
+
+h4{
+    color:#5E5E5E;
+}
+
