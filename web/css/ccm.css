@@ -26,6 +26,21 @@ body {
   padding: 50px 0;
 }
 
+.sponsor {
+    vertical-align: middle;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 80px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
 .prima-banner {
     background: url("../img/FirstPage_alebrije.png") no-repeat left center;
     background-size: contain;
