@@ -50,6 +50,7 @@ body {
     vertical-align: middle;
     height: 60px;
     display: inline-block;
+    padding: 5px;
     margin: auto;
 }
 
@@ -168,7 +169,7 @@ body {
 }
 
 .page-header {
-    /*border-bottom: 1px solid #6db7c2;*/
+    border-bottom: 0px;
     margin: 80px 0 20px;
     padding-bottom: 9px;
     color: #6db7c2;
