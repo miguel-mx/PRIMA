@@ -26,6 +26,19 @@ body {
   padding: 50px 0;
 }
 
+.copyright-footer {
+    padding-top: 15px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#logosfooter{
+    display: inline-block;
+}
+
 .sponsor {
     vertical-align: middle;
     height: 100px;
@@ -35,9 +48,8 @@ body {
 
 .logo {
     vertical-align: middle;
-    height: 80px;
-    width: auto;
-    display: block;
+    height: 60px;
+    display: inline-block;
     margin: auto;
 }
 
@@ -78,7 +90,7 @@ body {
 .navbar-default .navbar-nav > li > a {
     color: #6db7ca;
     font-size: 18px;
-    padding-top: 0px;
+    padding-top: 32px;
 }
 
 .cd-primary-nav {
@@ -102,11 +114,19 @@ body {
 }
 
 .prima-content {
-    padding-top: 25px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 17px;
     color: #888888;
 }
+@media only screen and (min-width: 768px) {
+
+    .prima-content {
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+}
+
 
 .prima-program {
     padding-top: 25px;
