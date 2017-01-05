@@ -13,7 +13,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.footer {
+.footer{
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -23,7 +23,11 @@ body {
   background: #3AB34A none repeat scroll 0 0;
   /*border-top: 1px solid #414f5a;*/
   color: #ffffff;
-  padding: 50px 0;
+  padding: 20px 0 ;
+}
+
+.footer a, .footer a:hover  {
+    color: #fff;
 }
 
 .copyright-footer {
@@ -93,6 +97,8 @@ body {
     font-size: 18px;
     padding-top: 32px;
 }
+
+
 
 .cd-primary-nav {
     background: rgba(42, 108, 118, 0.88) none repeat scroll 0 0;
