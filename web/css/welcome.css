@@ -35,3 +35,27 @@ a:focus, a:hover, a:visited {
     text-decoration: none;
 }
 
+.logo {
+    vertical-align: middle;
+    height: 80px;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.cd-primary-nav-trigger {
+    background-color: transparent;
+    bottom: auto;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 1em;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+}
