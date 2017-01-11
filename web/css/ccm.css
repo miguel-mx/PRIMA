@@ -206,14 +206,14 @@ body {
     text-align: left;
 }
 
-.oaxaca-banner {
+/*.oaxaca-banner {
     background:  url("../img/oaxaca-img.png") no-repeat center center;
     background-size: cover;
     color: #ffffff;
     height: 430px;
     margin-top: 20px;
     padding-bottom: 200px;
-}
+}*/
 
 .oaxaca-content {
     padding-top: 50px;
@@ -241,8 +241,8 @@ h4{
     padding: 0px;
 }
 
-.cta-section {
-    background: #253340 url("../img/FirstPage_alebrije.png") no-repeat scroll left top / cover ;
+.oaxaca-banner{
+    background: #253340 url("../img/oaxaca-banner.png") no-repeat scroll left top / cover ;
     border: medium none;
     color: #fff;
     min-height: 420px;
@@ -258,3 +258,41 @@ h4{
 .session {
     background-color: #39b44a;
 }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 450px;
+  margin-bottom: 10px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  background-color: rgba(0,0,255,0.3);
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 450px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 450px;
+}
+
+/*
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    background-size:     cover;                      !* <------ *!
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}*/
