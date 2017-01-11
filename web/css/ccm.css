@@ -248,3 +248,13 @@ h4{
     min-height: 420px;
     padding-top: 10px;
 }
+
+.panel-timeline > .panel-heading {
+    background-color: #b2d8df;
+    border-color: #ddd;
+    color: #333;
+}
+
+.session {
+    background-color: #39b44a;
+}
