@@ -26,12 +26,13 @@ body {
   padding: 20px 0 ;
 }
 
-.footer a, .footer a:hover  {
+.footer a, .footer a:hover, .footer a:focus, .footer a:hover, .footer a:visited, .footer a:active {
     color: #fff;
 }
 
 .copyright-footer {
     padding-top: 15px;
+    margin-top: 20px;
 }
 
 .col-centered{
@@ -236,17 +237,28 @@ h4{
     color: #6DB7C2;
 }
 
+.plenary p {
+    color: #777;
+}
+
 .img-thumbnail {
     border: 3px solid yellow;
     padding: 0px;
 }
 
 .oaxaca-banner{
-    background: #253340 url("../img/oaxaca-banner.png") no-repeat scroll left top / cover ;
+    background: #253340 url("../img/oaxaca-banner.png") no-repeat center center / cover ;
+    height: 100%;
     border: medium none;
     color: #fff;
     min-height: 420px;
     padding-top: 10px;
+}
+
+.oaxaca-banner h4 {
+    color: white;
+    font-weight: 500;
+    line-height: 150%;
 }
 
 .panel-timeline > .panel-heading {
@@ -284,6 +296,15 @@ h4{
   left: 0;
   min-width: 100%;
   height: 450px;
+}
+
+.media-object {
+    border: 2px solid yellow;
+    display: block;
+}
+
+.media-body {
+    padding-left: 15px;
 }
 
 /*
