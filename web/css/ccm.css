@@ -283,6 +283,18 @@ h4{
     background-color: #39b44a;
 }
 
+.special-session-a {
+    padding: 10px;
+    color:#000;
+    background-color: #E0D6EA;
+}
+
+.special-session-b {
+    padding: 10px;
+    color:#000;
+
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
