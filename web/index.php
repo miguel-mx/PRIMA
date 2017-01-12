@@ -55,6 +55,14 @@ $app->get('/contact', function() use($app) {
     return $app['twig']->render('contact.html.twig');
 })->bind('contact');
 
+// Hook
+$app->get('/hook', function() use($app) {
+
+    `git pull`;
+    return $app->redirect('home');
+
+})->bind('hook');
+
 // 404 - Page not found
 $app->error(function (\Exception $e, $code) use ($app) {
     switch ($code) {
