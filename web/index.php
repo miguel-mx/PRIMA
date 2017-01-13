@@ -58,8 +58,7 @@ $app->get('/contact', function() use($app) {
 // Hook
 $app->get('/hook', function() use($app) {
 
-    $output = shell_exec('git pull');
-    return $output;
+    return `git pull`;
 
 })->bind('hook');
 
