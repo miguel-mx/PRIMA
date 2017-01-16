@@ -15,6 +15,9 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../views',
 ));
 
+// Sessions Controller
+$app->mount('/sessions', include 'sessions.php');
+
 // Landing
 $app->get('/', function() use($app) {
     return $app['twig']->render('landing.html.twig');

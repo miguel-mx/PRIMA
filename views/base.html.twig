@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" href="{{ app.request.basepath }}/img/favicon.ico">
 
     <title>PRIMA 2017</title>
 
@@ -19,17 +19,13 @@
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Montserrat">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template
     <link href="css/cover.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="css/ccm.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="{{ app.request.basepath }}/css/ccm.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -50,20 +46,20 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand hidden-xs hidden-sm" href="home"><img src="img/primalogo.png" height="100%"> </a>
+            <a class="navbar-brand hidden-xs hidden-sm" href="home"><img src="{{ app.request.basepath }}/img/primalogo.png" height="100%"> </a>
             <a class="navbar-brand hidden-md hidden-lg" href="home">PRIMA 2017</a>
 
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="program">Program</a></li>
+                <li><a href="{{ app.request.basepath }}/program">Program</a></li>
                 <li><a href="#">Registration</a></li>
-                <li><a href="plenary-speakers">Plenary Speakers</a></li>
-                <li><a href="financial-assistance">Finantial Assistance</a></li>
-                <li><a href="sponsors">Sponsors</a></li>
-                <li><a href="oaxaca">Oaxaca</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="{{ app.request.basepath }}/plenary-speakers">Plenary Speakers</a></li>
+                <li><a href="{{ app.request.basepath }}/financial-assistance">Finantial Assistance</a></li>
+                <li><a href="{{ app.request.basepath }}/sponsors">Sponsors</a></li>
+                <li><a href="{{ app.request.basepath }}/oaxaca">Oaxaca</a></li>
+                <li><a href="{{ app.request.basepath }}/contact">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -83,29 +79,29 @@
 
             <div id="logosfooter"class="col-md-10 col-centered hidden-xs">
 
-                        <a href="https://www.unam.mx/"><img src="img/unam-logo.png" class="img-responsive logo"></a>
+                        <a href="https://www.unam.mx/"><img src="{{ app.request.basepath }}/img/unam-logo.png" class="img-responsive logo"></a>
 
 
-                        <a href="http://www.matem.unam.mx/"> <img src="img/im-logo.png" class="img-responsive logo"></a>
+                        <a href="http://www.matem.unam.mx/"> <img src="{{ app.request.basepath }}/img/im-logo.png" class="img-responsive logo"></a>
 
 
-                        <a href="http://www.matmor.unam.mx"><img src="img/ccm-logo.png" class="img-responsive logo"></a>
+                        <a href="http://www.matmor.unam.mx"><img src="{{ app.request.basepath }}/img/ccm-logo.png" class="img-responsive logo"></a>
 
 
-                        <a href="http://www.amc.unam.mx/"><img src="img/academia-logo.png" class="img-responsive logo"></a>
+                        <a href="http://www.amc.unam.mx/"><img src="{{ app.request.basepath }}/img/academia-logo.png" class="img-responsive logo"></a>
 
 
-                        <a href="http://www.itoaxaca.edu.mx/"><img src="img/tecoax-logo.png" class="img-responsive logo"></a>
+                        <a href="http://www.itoaxaca.edu.mx/"><img src="{{ app.request.basepath }}/img/tecoax-logo.png" class="img-responsive logo"></a>
 
-                        <a href=""><img src="img/cmo-logo.png" class="img-responsive logo"></a>
-
-
-                        <a href="http://www.conacyt.gob.mx/"><img src="img/conacyt-logo.png" class="img-responsive logo"></a>
-
-                        <a href="http://www.primath.org/"><img src="img/prima-logo.png" class="img-responsive logo"></a>
+                        <a href=""><img src="{{ app.request.basepath }}/img/cmo-logo.png" class="img-responsive logo"></a>
 
 
-                        <a href="http://www.smm.org.mx/"><img src="img/sociedad-logo.png" class="img-responsive logo"></a>
+                        <a href="http://www.conacyt.gob.mx/"><img src="{{ app.request.basepath }}/img/conacyt-logo.png" class="img-responsive logo"></a>
+
+                        <a href="http://www.primath.org/"><img src="{{ app.request.basepath }}/img/prima-logo.png" class="img-responsive logo"></a>
+
+
+                        <a href="http://www.smm.org.mx/"><img src="{{ app.request.basepath }}/img/sociedad-logo.png" class="img-responsive logo"></a>
             </div>
             <div class="col-md-12">
                 <h1></h1>
@@ -131,7 +127,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="{{ app.request.basepath }}/js/ie10-viewport-bug-workaround.js"></script>
 
 {% endblock %}
 </body>
