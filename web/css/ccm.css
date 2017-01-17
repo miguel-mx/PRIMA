@@ -285,24 +285,35 @@ h4{
 
 .special-session-a {
     padding: 10px;
-    color:#000;
+    color: #333;
     background-color: #E0D6EA;
 }
 
 .special-session-b {
     padding: 10px;
-    color:#000;
+    color: #333;
 
 }
 
 .program-session-1 {
     padding: 10px;
     background-color: #E0D6EA;
+    color: #333;
 }
 
 .program-session-2 {
     padding: 10px;
     background-color: #D3C1E0;
+    color: #333;
+}
+
+.session-title {
+    color: #3ab34a;
+}
+
+.organizers {
+    color: #333;
+    font-size: 14px;
 }
 
 .row-flex, .row-flex > div[class*='col-'] {
@@ -388,15 +399,6 @@ h4{
 
 .carousel-caption .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
     color: #fff;
-}
-
-.session-title {
-    color: #3ab34a;
-}
-
-.organizers {
-    color: #333;
-    font-size: 14px;
 }
 
 /*breakpoin navbar */
