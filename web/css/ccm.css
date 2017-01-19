@@ -30,6 +30,16 @@ body {
     color: #fff;
 }
 
+
+.pacific {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    padding-top: 15px;
+
+}
 .copyright-footer {
     padding-top: 15px;
     margin-top: 20px;
