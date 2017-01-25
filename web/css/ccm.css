@@ -448,5 +448,12 @@ h4{
     .collapsing {
         overflow: hidden!important;
     }
+
+    .btn {
+        background-color: #ec008c;
+        color: #fff;
+        font-size: 14px;
+
+    }
 }
 
