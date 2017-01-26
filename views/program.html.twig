@@ -24,86 +24,7 @@
             <!-- Tab panes -->
             <div class="tab-content prima-program">
                 <div role="tabpanel" class="tab-pane active table-responsive" id="general">
-                    {#
-                                        <table class="table table-general table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th></th>
-                                                <th style="background-color: #EEF5F6; text-align: center">SUNDAY 13</th>
-                                                <th style="text-align: center">MONDAY 14</th>
-                                                <th style="background-color: #EEF5F6; text-align: center">TUESDAY 15</th>
-                                                <th style="text-align: center">WEDNESDAY 16</th>
-                                                <th style="background-color: #EEF5F6; text-align: center">THURSDAY 17</th>
-                                                <th style="text-align: center">FRIDAY 18</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row" style="background-color: #E2F0F2; text-align: left;">9:00-10:00</th>
-                                                <td style="background-color: #D6EAED">&nbsp;</td>
-                                                <td style="background-color: #E2F0F2">INAUGURAL CEREMONY</td>
-                                                <td style="background-color: #D6EAED">PL 3</td>
-                                                <td style="background-color: #E2F0F2">PL 6</td>
-                                                <td style="background-color: #D6EAED">PL 9</td>
-                                                <td style="background-color: #E2F0F2">PL 12</td>
-                                            </tr>
-                                            <tr> <th scope="row">10:00-11:00</th>
-                                                <td style="background-color: #E2F0F2">&nbsp;</td>
-                                                <td>BREAK 15 min<br>PL1 (10:15-11:15)</td>
-                                                <td style="background-color: #E2F0F2">PL 4</td>
-                                                <td>PL 7</td>
-                                                <td style="background-color: #E2F0F2">PL 10</td>
-                                                <td>PL 13</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row" style="background-color: #E2F0F2; text-align: left">11:00-12:00</th>
-                                                <td style="background-color: #D6EAED">&nbsp;</td>
-                                                <td style="background-color: #E2F0F2">PL2 (11:15-12:15)</td>
-                                                <td style="background-color: #D6EAED">PL 5</td>
-                                                <td style="background-color: #E2F0F2">PL 8</td>
-                                                <td style="background-color: #D6EAED">PL 11</td>
-                                                <td style="background-color: #E2F0F2">PL 14</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">12:00-15:00</th>
-                                                <td style="background-color: #E2F0F2">&nbsp;</td>
-                                                <td>LUNCH</td>
-                                                <td style="background-color: #E2F0F2">LUNCH</td>
-                                                <td>LUNCH</td>
-                                                <td style="background-color: #E2F0F2">LUNCH</td>
-                                                <td>LUNCH</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row" style="background-color: #E2F0F2">15:00-19:30</th>
-                                                <td style="background-color: #D6EAED">REGISTRATION AND <br>WELCOME<br> RECEPTION</td>
-                                                <td style="background-color: #E2F0F2">SPECIAL SESSIONS</td>
-                                                <td style="background-color: #D6EAED">SPECIAL SESSIONS</td>
-                                                <td style="background-color: #E2F0F2">FREE AFTERNOON</td>
-                                                <td style="background-color: #D6EAED">SPECIAL SESSIONS</td>
-                                                <td style="background-color: #E2F0F2">SPECIAL SESSIONS</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">19:30-20:00</th>
-                                                <td style="background-color: #E2F0F2">&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td style="background-color: #E2F0F2">&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td style="background-color: #E2F0F2">&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row" style="background-color: #E2F0F2">20:00-21:00</th>
-                                                <td style="background-color: #D6EAED">&nbsp;</td>
-                                                <td style="background-color: #E2F0F2">PUBLIC LECTURE</td>
-                                                <td style="background-color: #D6EAED">PUBLIC LECTURE</td>
-                                                <td style="background-color: #E2F0F2">BANQUET</td>
-                                                <td style="background-color: #D6EAED">&nbsp;</td>
-                                                <td style="background-color: #E2F0F2">&nbsp;</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                        <p class="text-center p-table-general"> <strong>PL = PLENARY LECTURE</strong></p>
-                    #}
+
                     <!-- Nav tabs -->
                     <ul class="nav nav-pills nav-justified" role="tablist">
                         <li role="presentation" class="active"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="pill">Sunday 13</a></li>
@@ -164,64 +85,66 @@
                                     <p>Coffee Break From 17:00 to 17:30</p>
                                     <br>
                                     <div class="row row-flex row-flex-wrap">
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="well">
                                                 <h4><a href="{{ app.request.basepath }}/sessions/matroid-theory">Matroid Theory</a></h4>
                                                 Room 1
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="well">
                                                 <h4>Bergman Spaces and Toeplitz operators</h4>
                                                 Room 2
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="well">
                                                 <h4>Dynamical Systems and Geometry</h4>
                                                 Room 3
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Algebraic and Enumerative Combinatorics</h4>
-                                                Room 4
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row row-flex row-flex-wrap">
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Mathematical Ecology and Epidemiology</h4>
-                                                Room 5
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Advances in Geometric Methods in Mechanics with Applications</h4>
-                                                Room 6
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Nonlinear Elliptic PDE and Systems</h4>
-                                                Room 3
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Algebraic Geometry</h4>
-                                                Room 4
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row row-flex row-flex-wrap">
                                         <div class="col-md-4">
                                             <div class="well">
+                                                <h4>Algebraic and Enumerative Combinatorics</h4>
+                                                Room 4
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Mathematical Ecology and Epidemiology</h4>
+                                                Room 5
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Advances in Geometric Methods in Mechanics with Applications</h4>
+                                                Room 6
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-flex row-flex-wrap">
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Nonlinear Elliptic PDE and Systems</h4>
+                                                Room 3
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Algebraic Geometry</h4>
+                                                Room 4
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
                                                 <h4>Special Functions, Orthogonal Polynomials and Applications</h4>
                                                 Room 9
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="row row-flex row-flex-wrap">
                                         <div class="col-md-4">
                                             <div class="well">
                                                 <h4>Geometry and Topology</h4>
@@ -285,64 +208,66 @@
                                     <p>Coffee Break From 17:00 to 17:30</p>
                                     <br>
                                     <div class="row row-flex row-flex-wrap">
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="well">
                                                 <h4><a href="{{ app.request.basepath }}/sessions/matroid-theory">Matroid Theory</a></h4>
                                                 Room 1
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="well">
                                                 <h4>Bergman Spaces and Toeplitz operators</h4>
                                                 Room 2
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="well">
                                                 <h4>Dynamical Systems and Geometry</h4>
                                                 Room 3
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Algebraic and Enumerative Combinatorics</h4>
-                                                Room 4
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row row-flex row-flex-wrap">
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Mathematical Ecology and Epidemiology</h4>
-                                                Room 5
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Advances in Geometric Methods in Mechanics with Applications</h4>
-                                                Room 6
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Nonlinear Elliptic PDE and Systems</h4>
-                                                Room 3
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="well">
-                                                <h4>Algebraic Geometry</h4>
-                                                Room 4
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row row-flex row-flex-wrap">
                                         <div class="col-md-4">
                                             <div class="well">
+                                                <h4>Algebraic and Enumerative Combinatorics</h4>
+                                                Room 4
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Mathematical Ecology and Epidemiology</h4>
+                                                Room 5
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Advances in Geometric Methods in Mechanics with Applications</h4>
+                                                Room 6
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-flex row-flex-wrap">
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Nonlinear Elliptic PDE and Systems</h4>
+                                                Room 3
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
+                                                <h4>Algebraic Geometry</h4>
+                                                Room 4
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="well">
                                                 <h4>Special Functions, Orthogonal Polynomials and Applications</h4>
                                                 Room 9
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="row row-flex row-flex-wrap">
                                         <div class="col-md-4">
                                             <div class="well">
                                                 <h4>Geometry and Topology</h4>
