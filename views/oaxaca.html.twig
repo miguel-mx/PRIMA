@@ -99,6 +99,19 @@
 
         <div class="page-header text-center"><h2>Location<h2></div>
     </div>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1pgnFkDAQxZOke7oOhPo-3dnQujA&hl=en" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="map-container">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1pgnFkDAQxZOke7oOhPo-3dnQujA&hl=en" width="100%" height="450" frameborder="0"  scrolling="no" style="border:0" allowfullscreen></iframe>
+    </div>
 
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        $('.map-container')
+                .click(function(){
+                    $(this).find('iframe').addClass('clicked')})
+                .mouseleave(function(){
+                    $(this).find('iframe').removeClass('clicked')});
+    </script>
 {% endblock %}
