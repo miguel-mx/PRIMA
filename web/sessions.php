@@ -11,5 +11,12 @@ $sessions->get('/matroid-theory', function() use($app) {
 
 })->bind('matroid-theory');
 
+// Nonlinear Elliptic PDE and Systems
+$sessions->get('/nonlinear-elliptic-pde-and-systems', function() use($app) {
+
+    return $app['twig']->render('sessions/nonlinear-elliptic-pde-and-systems.html.twig');
+
+})->bind('nonlinear-elliptic-pde-and-systems');
+
 
 return $sessions;
