@@ -175,6 +175,14 @@ body {
     color: #888888;
 }
 
+
+.OrganizingCommittee{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+
+}
+
 /* tab color */
 .nav-tabs>li>a {
     background-color: #C6C1C1;
