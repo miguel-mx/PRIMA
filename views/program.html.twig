@@ -312,6 +312,20 @@
                                 <div class="panel-heading"><strong>10:00-11:00</strong></div>
                                 <div class="panel-body">
                                     <h4>William Duke <br><small class="text-muted"> Plenary Lecture PL 7</small></h4>
+                                    <a data-toggle="collapse" href="#wDuke" aria-expanded="false" aria-controls="wDuke">
+                                        <strong>The geometry of real quadratic fields</strong>
+                                    </a>
+                                    <div class="collapse" id="wDuke">
+                                        <div class="well text-left">
+                                            My aim is to give a general and accessible description of joint work with
+                                            Ozlem Imamoglu and Arpad Toth on some new geometric invariants associated
+                                            to real quadratic fields. These are hyperbolic surfaces bounded by closed
+                                            geodesics whose geometric properties are highly arithmetic.
+                                            Key to their study are  automorphic forms and $L$-functions. Several areas
+                                            of math enter, including algebraic and analytic number theory, geometry and
+                                            spectral theory.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="panel panel-timeline text-center">
@@ -741,5 +755,19 @@
             </div>
         </div>
     </div>
+
+{% endblock %}
+
+{% block javascripts %}
+
+    {{ parent() }}
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 
 {% endblock %}
